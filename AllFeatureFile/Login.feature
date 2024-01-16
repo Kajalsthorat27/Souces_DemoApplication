@@ -16,3 +16,8 @@ Feature: Swag Labs Login Application
     When User click on Checkout button
     When User Enter All information firstname lastname and zipcode
     Then Click on Continue button
+
+    #Sahara
+    Scenario: Checkout overview functionality
+    Then User click on Finish button and capture thankyou message
+    
